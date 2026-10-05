@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>peoplebazaar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <div class="address border">
+                <p id="first">Deliver to</p>
+               <div class="add-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p id="second">india</p>
+               </div>
+            </div>
+            <div class="nav-search">
+                <select class="input-select">
+                    <option>All</option>
+                </select>
+                <input type="text" placeholder="search" class="search-input">
+                <button onclick="searchProduct()" class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+             <div class="nav-signin border">
+                <p><span>Hello,sign in</span></p>
+                <p class="nav-sign">Account & List</p>
+             </div>
+             <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-sign">& Orders</p>
+             </div>
+             <div class="nav-cart border">
+                
+                <i class="fa-solid fa-cart-shopping"></i>cart
+               
+            </div>
+           
+        </div>
+        <div class="panel">
+            <div class="panel-menu border">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-opt ">
+                <p class="border">Today Deals</p>
+                <p class="border">Customer Service</p>
+                <p class="border">Registry</p>
+                <p class="border">Gift Cards</p>
+                <p class="border">Sell</p>
+            </div>
+            <div class="panel-deals">
+                Shop deals in Electronics
+            </div>
+        </div>
+    </header>
+     
+       <div class="hero-section">
+        <div class="hero-message">
+            <p>You are on peoplebazaar.com.You can also shop on peoplebazaar India for millions of products with fast local delivery. <a>Click here to go peoplebazaar.in</a></p>
+        </div>
+       </div>
+       <div class="shop-section">
+        <div class="box1 box">
+            <div class="box-content">
+            <h2>Clothes</h2>
+            <div class="box-image" style="background-image: url('box1_image.jpg');"></div>
+           <a href="#">See more</a>
+        </div>
+        </div>
+        <div class="box2 box">  <div class="box-content">
+            <h2>Health & Personal Care</h2>
+            <div class="box-image" style="background-image: url('box2_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div></div>
+        <div class="box3 box">  <div class="box-content">
+            <h2>Furniture</h2>
+            <div class="box-image" style="background-image: url('box3_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div></div>
+        <div class="box4 box">  <div class="box-content">
+            <h2>Electronics</h2>
+            <div class="box-image" style="background-image: url('box4_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div></div>
+        <div class="box1 box">
+            <div class="box-content">
+            <h2>Beauty Picks</h2>
+            <div class="box-image" style="background-image: url('box5_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div>
+        </div>
+        <div class="box2 box">  <div class="box-content">
+            <h2>Pet Care</h2>
+            <div class="box-image" style="background-image: url('box6_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div></div>
+        <div class="box3 box">  <div class="box-content">
+            <h2>Toys & Games</h2>
+            <div class="box-image" style="background-image: url('box7_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div></div>
+        <div class="box4 box">  <div class="box-content">
+            <h2>Fashion</h2>
+            <div class="box-image" style="background-image: url('box8_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div></div>
+        <div class="box1 box">
+            <div class="box-content">
+            <h2>Home & Kitchen</h2>
+            <div class="box-image" style="background-image: url('box9_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div>
+        </div>
+        <div class="box2 box">  <div class="box-content">
+            <h2>Computers & Accessories</h2>
+            <div class="box-image" style="background-image: url('box10_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div></div>
+        <div class="box3 box">  <div class="box-content">
+            <h2>Books</h2>
+            <div class="box-image" style="background-image: url('box11_image.jpg');"></div>
+            <a href="#">See more</a>
+        </div></div>
+        <div class="box4 box">  <div class="box-content">
+            <h2>Sports & Fitness</h2>
+            <div class="box-image" style="background-image: url('box12_image.jpg');"></div>
+            <<a href="#">See more</a>
+        </div></div>
+       
+        
+        <div class="sign-content">
+            <div class="box-border">
+                <div class="box-details">
+            <p>See personlized recommendations</p>
+            <div class="sign"><p>Sign in,</p></div>
+            <p>New customer? <a href="#" style="color: rgb(47, 47, 179);">Start here</a></p></div>
+        </div>
+       </div>
+       </div>
+       <footer>
+        <div class="back-top">Back-to-top</div>
+        <div class="foot-panel1">
+            <ul>
+                <p href="#">Get to Know Us</p>
+                <a href="#">About peoplebazaar</a>
+                <a href="#">Careers</a>
+                <a href="#">Press Releases</a>
+                <a href="#">peoplebazaar Science</a>
+            </ul>
+             <ul>
+                <p>Connect with Us</p>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                
+            </ul>
+             <ul>
+                <p>Make Money with Us</p>
+                <a href="#">Sell on peoplebazzar</a>
+                <a href="#">Sell under peoplebazar Accelerator</a>
+                <a href="#">Protect and Build Your Brand</a>
+                <a href="#">peoplebazaar Global Selling</a>
+                <a href="#">Supply to peoplebazaar</a>
+                <a href="#">Become an Affiliate</a>
+                <a href="#">Fulfilment by peoplebazaar</a>
+                <a href="#">Advertise Your Products</a>
+                
+            </ul>
+             <ul>
+                <p>Let Us Help You</p>
+                <a href="#">Your Account</a>
+                <a href="#">Returns Centre</a>
+                <a href="#">Recalls and Product Safety Alerts</a>
+                <a href="#">100% Purchase Protection</a>
+                <a href="#">peoplebazaar App Download</a>
+                <a href="#">Help</a>
+            </ul>
+        </div>
+         <div class="foot-panel2">
+                <div class="logo2"></div>
+                <div class="language-border">
+                    <div class="globe">🌐</div>
+                <div class="top-language">
+                <select class="lan-color">
+                    <option class="one">English</option>
+                     <option class="one">Telugu</option>
+                     <option class="one">Hindi</option>
+                     <option class="one">Urdu</option>
+                     <option class="one">Tamil</option>
+                </select>
+                </div>
+                </div>
+                <div class="country-name">
+                <div class="country">
+                <select class="flag-name">
+                    <option class="one">Australia</option>
+                     <option class="one">India</option>
+                     <option class="one">Usa</option>
+                     <option class="one">China</option>
+                     <option class="one">Japan</option>
+                </select>
+                </div>
+                </div>
+                </div>
+            </div>
+            <div class="panel-last">
+                
+                <a href="#">Conditions of Use & Sale</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Interest-Based Ads</a>
+                <p>© 1996-2026, peoplebazaar.com, Inc. or its affiliates</p>
+            </div>
+            
+       </footer>
+       
+</body>
+</html>
